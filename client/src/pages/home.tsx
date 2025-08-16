@@ -111,7 +111,7 @@ export default function Home() {
               </a>
             </Button>
             <Button size="sm" asChild>
-              <a href="http://localhost:6006" target="_blank" rel="noopener noreferrer">
+              <a href={`${window.location.protocol}//${window.location.hostname}:6006`} target="_blank" rel="noopener noreferrer">
                 <Book className="w-4 h-4 mr-2" />
                 Storybook
               </a>
