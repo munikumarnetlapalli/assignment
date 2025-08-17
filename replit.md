@@ -4,6 +4,15 @@
 
 This is a production-ready React component library built with TypeScript, featuring reusable UI components with comprehensive Storybook documentation. The project provides two main components - InputField and DataTable - built on top of shadcn/ui foundation components. The library emphasizes accessibility, theming support (light/dark modes), and TypeScript safety with a modern development workflow using Vite and Storybook.
 
+## Recent Changes
+
+- **August 17, 2025**: Added complete Vercel deployment configuration with automatic build detection
+- **August 17, 2025**: Created comprehensive README with detailed project structure documentation
+- **August 17, 2025**: Implemented GitHub Actions workflow for automated deployments
+- **August 17, 2025**: Optimized .gitignore for better version control
+- **August 17, 2025**: Added DEPLOYMENT.md guide covering multiple deployment platforms
+- **August 17, 2025**: Verified successful Storybook build (v8.6.14) with all components functional
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.

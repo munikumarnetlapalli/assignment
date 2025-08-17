@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": "npx storybook build",
+  "outputDirectory": "storybook-static",
+  "installCommand": "npm install",
+  "framework": null,
+  "public": false,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
+}
