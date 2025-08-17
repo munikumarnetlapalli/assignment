@@ -1,11 +1,6 @@
 {
   "projects": [
-    {
-      "name": "storybook-app",
-      "rootDirectory": "storybook-static",
-      "framework": "other",
-      "outputDirectory": "."
-    },
+   
     {
       "name": "client-app",
       "rootDirectory": "client",
