@@ -1,14 +1,12 @@
 {
-  "version": 2,
-  "buildCommand": "npx storybook build",
-  "outputDirectory": "storybook-static",
-  "installCommand": "npm install",
-  "framework": null,
-  "public": false,
-  "rewrites": [
+  "projects": [
     {
-      "source": "/(.*)",
-      "destination": "/$1"
+      "name": "client-app",
+      "rootDirectory": "client",
+      "framework": "vite",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist",
+      "installCommand": "npm install"
     }
   ]
 }
